@@ -1,0 +1,34 @@
+.flexed{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+table {
+    margin-left: 15px;
+    border: 1px solid black;
+}
+th{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.radio-container {
+    display: flex;
+    flex-direction: row !important;
+}
+
+form>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 50%;
+}

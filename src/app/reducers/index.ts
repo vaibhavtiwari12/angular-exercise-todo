@@ -1,4 +1,4 @@
-import { ActionReducerMap, MetaReducer } from "@ngrx/store";
+/* import { ActionReducerMap, MetaReducer } from "@ngrx/store";
 import { environment } from "../../environments/environment";
 import * as fromTasks from "./task/task.reducer";
 
@@ -13,3 +13,4 @@ export const reducers: ActionReducerMap<State> = {
 export const metaReducers: MetaReducer<State>[] = !environment.production
   ? []
   : [];
+ */
